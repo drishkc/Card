@@ -1,7 +1,11 @@
 
-body {
+body, html {
     background-color: #545454;
     font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 .frame{
@@ -10,6 +14,8 @@ body {
     padding-right: 20px;
     margin:120px auto;
     width: 320px;
+    border-radius: 9px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
 
 }
 .image {
